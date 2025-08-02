@@ -1,0 +1,8 @@
+category,param_name,data_type,default_value,min_value,max_value,description
+entry,volatility_threshold,float,0.018,0.01,0.03,价格波动率突破阈值
+entry,volume_multiplier,float,1.8,1.2,3.0,成交量放大倍数
+entry,rsi_period,int,14,7,21,RSI计算周期
+filter,index_ma_period,int,20,10,60,大盘指数均线周期
+exit,initial_stop_loss,float,-0.02,-0.05,-0.01,初始止损比例
+exit,trailing_activation,float,0.03,0.01,0.05,启动追踪止损的盈利阈值
+risk,max_position,float,0.1,0.05,0.2,单品种最大仓位比例

@@ -1,0 +1,4 @@
+strategy_id,strategy_type,asset,ticker,entry_condition,stop_loss,take_profit,position_size,max_drawdown,daily_loss_limit,volatility_filter
+QT-M1,Momentum,Stock,688111,"CLOSE>MAX(HIGH,20) & VOLUME>MA(VOLUME,5)*1.8","3%","TRAILING(50%)","10%","-15%","-3%","ATR(14)<0.05"
+QT-M2,Arbitrage,Crypto,BTC/USDT,"FUNDING_RATE<-0.1% & OI_RATIO>1.2","5%","SCALPING(0.5%)","5%","-20%","-5%","HV(30)<80%"
+QT-M3,EventDriven,ETF,518880,"VIX>25 & GLD_RSI<40","4%","TARGET(SPOT+3%)","12%","-10%","-2%","BETA<0.8"

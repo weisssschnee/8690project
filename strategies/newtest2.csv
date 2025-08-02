@@ -1,0 +1,5 @@
+strategy_id,strategy_type,asset_class,entry_condition,stop_condition,take_profit,position_rule,volatility_filter,max_dd_limit,daily_stop
+QT-UNIV1,Momentum,Equity,"CLOSE > MAX(HIGH,20) & VOLUME > MA(VOL,5)*1.5","CLOSE < LOWEST(LOW,5)","TRAILING(2*ATR(14))","MIN(0.2, 0.1*EQUITY/ATR(14))","HV(30)<0.5","-15%","-3%"
+QT-UNIV2,MeanReversion,Crypto,"RSI(14)<30 & PRICE < BOLL_LOWER(20)","RSI(14)>70","FIXED(1.5:1)","0.15*(1 - CURRENT_DRAWDOWN)","FUNDING_RATE<0.02","-20%","-5%"
+QT-UNIV3,Breakout,Commodity,"OPEN_GAP > 0.03 & VOLUME > PREV_VOL*2","CLOSE < ENTRY_PRICE*0.97","STAIR(0.03,0.05,0.08)","0.1*PORTFOLIO_VALUE","OI_CHANGE>0.1","-12%","-4%"
+QT-UNIV4,Arbitrage,Index,"SPREAD > 2*STD(SPREAD,30)","SPREAD < MEAN(SPREAD,30)","REVERT_TO_MEAN","0.3*(1 - CORR(A,B))","SPREAD_ZSCORE>3","-8%","-2%"

@@ -1,0 +1,5 @@
+rule_id,metric,threshold,action,scope
+RC01,daily_loss,-0.03,suspend_trading,global
+RC02,position_size,0.1,reject_order,per_symbol
+RC03,consecutive_losses,3,reduce_leverage,strategy
+RC04,volatility,0.4,hedge_position,portfolio

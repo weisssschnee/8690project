@@ -1,0 +1,5 @@
+rule_id,condition_type,indicator,comparison,value,logic_relation
+ER01,technical,close_price,>,highest(20),AND
+ER02,volume,current_volume,>,ma_volume_5*{volume_multiplier},AND
+ER03,momentum,rsi_{rsi_period},<,70,AND
+ER04,market,index_close,>,ma(index_close,{index_ma_period}),AND

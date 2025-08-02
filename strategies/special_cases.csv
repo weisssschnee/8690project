@@ -1,0 +1,5 @@
+case_type,detection_condition,response_action,comment
+gap_up,open_price > prev_close*1.05,adjust_stop_loss,"以缺口下沿作为新止损"
+gap_down,open_price < prev_close*0.95,skip_trading_day,"避免向下跳空交易"
+circuit_breaker,index_drop >=0.07,emergency_close,"触发熔断机制时平仓"
+dividend,ex_dividend_date,adjust_position,"除权日前日减仓50%"

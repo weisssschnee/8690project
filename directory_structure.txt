@@ -1,0 +1,221 @@
+文件夹 PATH 列表
+卷序列号为 5237-AF91
+C:.
+│  .env
+│  .env.txt
+│  api_keys.txt
+│  api_test.py
+│  app.py
+│  config.json
+│  config.py
+│  directory_structure.txt
+│  en.json
+│  lang.py
+│  latency_test_results.csv
+│  readme.txt
+│  requirement.txt
+│  run.py
+│  run1.py
+│  run_latency_test.py
+│  setup.py
+│  trading_system.log
+│  zh-cn.json
+│  
+├─.pytest_cache
+│  │  .gitignore
+│  │  CACHEDIR.TAG
+│  │  README.md
+│  │  
+│  └─v
+│      └─cache
+│              lastfailed
+│              nodeids
+│              stepwise
+│              
+├─app
+│  │  api_keys.txt
+│  │  config.py
+│  │  main.py
+│  │  test_main.py
+│  │  trading_system.log
+│  │  __init__.py
+│  │  
+│  ├─data
+│  ├─models
+│  │      xgb_model.joblib
+│  │      __init__.py
+│  │      
+│  ├─utils
+│  │      helpers.py
+│  │      __init__.py
+│  │      
+│  └─__pycache__
+│          config.cpython-311.pyc
+│          main.cpython-311.pyc
+│          test_main.cpython-311-pytest-8.3.5.pyc
+│          __init__.cpython-311.pyc
+│          
+├─core
+│  │  .env
+│  │  .env.txt
+│  │  config.py
+│  │  data_priority_manager.py
+│  │  optimized_data_manager.py
+│  │  system - 副本.py
+│  │  system.py
+│  │  translate.py
+│  │  __init__.py
+│  │  
+│  ├─alert
+│  │  │  manager.py
+│  │  │  
+│  │  └─__pycache__
+│  │          manager.cpython-311.pyc
+│  │          
+│  ├─analysis
+│  │  │  performance.py
+│  │  │  portfolio.py
+│  │  │  sentiment.py
+│  │  │  technical.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          performance.cpython-311.pyc
+│  │          portfolio.cpython-311.pyc
+│  │          sentiment.cpython-311.pyc
+│  │          technical.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─backtesting
+│  │  │  engine.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          engine.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─data
+│  │  │  direct_fetcher.py
+│  │  │  fetcher.py
+│  │  │  manager 5.10.1 不可用.py
+│  │  │  manager.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          direct_fetcher.cpython-311.pyc
+│  │          fetcher.cpython-311.pyc
+│  │          manager.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─market
+│  │  │  base_scanner.py
+│  │  │  batch_manager.py
+│  │  │  scanner.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          base_scanner.cpython-311.pyc
+│  │          batch_manager.cpython-311.pyc
+│  │          scanner.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─risk
+│  │  │  manager.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          manager.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─strategy
+│  │  │  custom_strategy.py
+│  │  │  ml_strategy.py
+│  │  │  unified_strategy.py
+│  │  │  __init__.py
+│  │  │  
+│  │  ├─results
+│  │  └─__pycache__
+│  │          custom_strategy.cpython-311.pyc
+│  │          ml_strategy.cpython-311.pyc
+│  │          unified_strategy.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─trading
+│  │  │  executor.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          executor.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─ui
+│  │  │  manager.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          manager.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  ├─utils
+│  │  │  data_mock.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          data_mock.cpython-311.pyc
+│  │          __init__.cpython-311.pyc
+│  │          
+│  └─__pycache__
+│          config.cpython-311.pyc
+│          optimized_data_manager.cpython-311.pyc
+│          system.cpython-311.pyc
+│          test_performance.cpython-311-pytest-8.3.5.pyc
+│          translate.cpython-311.pyc
+│          __init__.cpython-311.pyc
+│          
+├─data
+│  ├─logs
+│  │      trading_system.log
+│  │      
+│  └─sentiment
+├─locales
+│      en.json
+│      zh-cn.json
+│      
+├─models
+│      default_random_forest.joblib
+│      default_random_forest_scaler.joblib
+│      rf_model.joblib
+│      scaler.joblib
+│      test1_custom_model.joblib
+│      test1_custom_model_scaler.joblib
+│      
+├─strategies
+│      entry_rules.csv
+│      exit_rules.csv
+│      newtest1.csv
+│      newtest2.csv
+│      risk_controls.csv
+│      special_cases.csv
+│      strategy_params.csv
+│      
+├─test
+│  │  test_performance.py
+│  │  test_trading_system.py
+│  │  __init__.py
+│  │  
+│  ├─data
+│  │  ├─logs
+│  │  │      trading_system.log
+│  │  │      
+│  │  └─sentiment
+│  ├─models
+│  ├─strategies
+│  └─__pycache__
+│          test_performance.cpython-311-pytest-8.3.5.pyc
+│          test_trading_system.cpython-311-pytest-8.3.5.pyc
+│          __init__.cpython-311.pyc
+│          
+└─__pycache__
+        api_test.cpython-311-pytest-8.3.5.pyc
+        config.cpython-311.pyc
+        

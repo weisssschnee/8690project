@@ -1,0 +1,5 @@
+rule_id,condition_type,trigger_type,base_price,adjustment,priority
+XR01,stop_loss,fixed,entry_price,{initial_stop_loss},1
+XR02,trailing_stop,dynamic,peak_price,-{trailing_activation},2
+XR03,profit_target,staircase,entry_price,[0.015,0.03,0.05],3
+XR04,trend_damage,technical,close_price,<,ma_10,4

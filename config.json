@@ -1,0 +1,51 @@
+{
+    "app_name": "量化交易系统",
+    "version": "1.0.0",
+    "theme": "light",
+    "api_keys": {},
+    "data_sources": {
+        "alpha_vantage": {
+            "enabled": false,
+            "api_key": ""
+        },
+        "yahoo_finance": {
+            "enabled": true
+        }
+    },
+    "risk_limits": {
+        "max_position_size": 0.1,
+        "max_drawdown": 0.15,
+        "var_confidence": 0.95,
+        "max_sector_exposure": 0.3
+    },
+    "scanner_settings": {
+        "default_market": "US",
+        "default_volume_threshold": 1000000,
+        "default_price_range": [
+            5,
+            1000
+        ],
+        "max_results": 20
+    },
+    "ui_settings": {
+        "default_tab": "dashboard",
+        "chart_style": "candles",
+        "dashboard_timeframe": "1d",
+        "color_scheme": {
+            "up": "#00C805",
+            "down": "#FF3B30",
+            "neutral": "#8E8E93"
+        }
+    },
+    "trading_settings": {
+        "default_order_type": "市价单",
+        "default_quantity": 10,
+        "enable_mock_trading": true,
+        "commission_rate": 0.001
+    },
+    "alerts": {
+        "enable_price_alerts": true,
+        "enable_email_notifications": false,
+        "check_interval": 60
+    }
+}
